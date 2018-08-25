@@ -25,6 +25,7 @@ client.on('ready', () => {
   console.log('')
 })
 }
+});
 
 
 
