@@ -30,7 +30,7 @@ var prefix = "-"
             message.channel.send(`تم أنشاء التذكره , #${c.name}.`);
             const embed = new Discord.RichEmbed()
                 .setColor(0xCF40FA)
-                .addField(` ${message.author.username}!`, ` *** شكرًا لك على التواصل مع فريق الدعم! سنرد عليك في أقرب وقت ممكن.. *** `)
+                .addField(` ${message.author.username}!`, ` ** شكرًا لك على التواصل مع فريق الدعم! سنرد عليك في أقرب وقت ممكن.. ** `)
                 .setTimestamp();
             c.send({
                 embed: embed
