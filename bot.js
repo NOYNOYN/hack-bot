@@ -35,6 +35,8 @@ var prefix = "-"
             c.send({
                 embed: embed
             });
+**تم انشاه التذكرة من قبل : ${msg.author}
+  في روم :** ${msg.channel.name}
         }).catch(console.error); 
     }
 
