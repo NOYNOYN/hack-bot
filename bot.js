@@ -1,8 +1,5 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-client.on("message", (message) => {
-
-    if (isCommand(message, "-new")) {
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
   console.log('')
@@ -26,7 +23,8 @@ client.on('ready', () => {
   console.log('╚[════════════]╝')
   console.log('')
   console.log('')
-});
+})
+}
 
 
 
